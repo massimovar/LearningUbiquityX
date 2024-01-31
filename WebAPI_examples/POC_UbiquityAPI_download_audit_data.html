@@ -1,0 +1,293 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Ubiquity API - tests</title>
+</head>
+
+<style>
+  input {
+    outline: none;
+  }
+
+  #wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  #box {
+    width: 345px;
+    height: 450px;
+    background-color: #fff;
+    margin: 0 auto;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 3px;
+  }
+
+  #top_header {
+    width: 100%;
+    margin: 0;
+    padding-top: 45px;
+  }
+
+  #top_header>h3 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: #0F6FCA;
+    -webkit-text-stroke: 0.5px;
+    margin: 0;
+
+  }
+
+  #top_header>h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #0F6FCA;
+    line-height: 1.6;
+    margin: 0;
+    padding: 15px 0;
+    color: #555;
+    -webkit-text-stroke: 0.2px;
+  }
+
+  #inputs {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  input[type=text],
+  input[type=password],
+  input[type=submit] {
+    width: 300px;
+    height: 55px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: -10px;
+    padding: 15px;
+    box-sizing: border-box;
+    -webkit-text-stroke: 0.1px;
+  }
+
+  input[type=text],
+  input[type=password] {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: thin solid #ccc;
+    border-radius: 5px;
+    color: #0F6FCA;
+  }
+
+  input[type=text]:focus,
+  input[type=password]:focus {
+    border: thin solid #0F6FCA;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+
+  input[type=text]:focus,
+  input[type=password]:focus {
+    border-left: thin solid #0F6FCA;
+  }
+
+
+  input[type=submit] {
+    color: #0F6FCA;
+    background-color: #fff;
+    border: 1px solid #0F6FCA;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    transition: all .3s ease;
+    margin-top: 0px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #0F6FCA;
+    color: #fff;
+  }
+
+  #bottom {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #282828;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    transition: color .3s ease;
+    outline: none;
+  }
+
+  a:hover {
+    color: #1eb056;
+  }
+
+  .right_a {
+    float: right;
+  }
+</style>
+
+<body>
+  <div id="wrapper">
+    <div id="box">
+      <div id="top_header">
+        <h3>Ubiquity API demo</h3>
+        <h5>Download Audit connections data</h5>
+      </div>
+      <div id="inputs">
+        <input type="text" name='Email' value='' maxlength="50" size="30" placeholder="Email" id="email" /><br />
+        <input type="password" name='Password' value='' placeholder="Password" id="Password" autocomplete="off" /><br />
+        <input type='submit' id="loginButton" name='Submit' value='Login' /><br />
+        <p style="text-align: center;"><i id="loginFeedback" autocomplete="off" ></i></p>
+        <div class="auditFilters" style="visibility: hidden;">
+          <input type="text" placeholder="date from" data-provide="datepicker" id="dateFrom" name='date from' autocomplete="off" /><br />
+          <input type="text" placeholder="date to" data-provide="datepicker" id="dateTo" name='date from' autocomplete="off" /><br />
+          <input type='submit' id="downloadAuditBtn" name='Download audit data' value='Download audit data' /><br />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+    integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css"
+    integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script>
+    var jwt;
+    // Ubiquity API endpoint
+    var ENDPOINT = "https://ubiquity.asem.it/api";
+    var loginFeedback = document.getElementById('loginFeedback');
+    var downloadAuditFeedback = document.getElementById('downloadAuditFeedback');
+    var loginButton = document.getElementById('loginButton');
+    var downloadAuditBtn = document.getElementById('downloadAuditBtn');
+    var datePickerFormat = "dd/mm/yy";
+
+    $('#dateFrom').datepicker({
+      changeMonth: true,
+      changeYear: true,
+      showButtonPanel: true,
+      dateFormat: datePickerFormat
+    }).datepicker("setDate", new Date());;
+
+    $('#dateTo').datepicker({
+      changeMonth: true,
+      changeYear: true,
+      showButtonPanel: true,
+      dateFormat: datePickerFormat
+    }).datepicker("setDate", new Date());;
+
+    // LOGICA UBIQUITY API
+    // https://ubiquity.asem.it/api/index.html
+
+    // Al click sul bottone di login lancio la funzione "login", per autenticarmi al dominio
+    loginButton.addEventListener('click', () => {
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('Password').value;
+      login(email, password);
+    });
+
+    // Al click sul bottone di download viene lanciato il metodo "getAuditData" 
+    // allo scopo di ottenere tutte le azioni di tipo "Operations" effettuate a dominio
+    // nel lasso di tempo selezionato
+    downloadAuditBtn.addEventListener('click', () => {
+      getAuditData();
+    });
+
+    // Funzione per l'autenticazione utente
+    const login = async (email, password) => {
+
+      // Richiesta POST /api/user/authenticate
+      const response = await fetch(ENDPOINT + '/user/authenticate', {
+        method: 'POST',
+        body: JSON.stringify({
+          'Email': email,
+          'Password': password
+        }),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+      jwt = await response.text();
+      if (response.status == 200) {
+        loginFeedback.innerHTML = "logged!";
+        $(".auditFilters").css('visibility', 'visible');
+      } else {
+        loginFeedback.innerHTML = "cannot login! Please check email and password";
+        $(".auditFilters").css('visibility', 'hidden');
+      }
+    }
+
+    // Funzione per l'autenticazione utente
+    const getAuditData = async () => {
+      var dateFrom = $('#dateFrom').datepicker('getDate');
+      var dateTo = $('#dateTo').datepicker('getDate');
+      var formattedDateFrom = dateFrom.getFullYear() + '-' + (dateFrom.getMonth() + 1).toString().padStart(2, '0') + '-' + dateFrom.getDate().toString().padStart(2, '0') + 'T00:00:00.000Z';
+      var formattedDateTo = dateTo.getFullYear() + '-' + (dateTo.getMonth() + 1).toString().padStart(2, '0') + '-' + (dateTo.getDate() + 1).toString().padStart(2, '0') + 'T00:00:00.000Z';
+      
+      var request = ENDPOINT
+      + '/audit/connections?$filter=((ConnectionTime%20ge%20'
+      + formattedDateFrom
+      + '%20and%20ConnectionTime%20le%20'
+      + formattedDateTo
+      + ')%20or%20(DisconnectionTime%20ge%20'
+      + formattedDateFrom
+      + '%20and%20DisconnectionTime%20le%20'
+      + formattedDateTo
+      + '))';
+
+      console.log(request);
+      
+      // Richiesta GET /api/audit/connections
+      const response = await fetch(request,
+        {
+          method: 'GET',
+          headers: {
+            'Authorization': 'Bearer ' + jwt,
+          }
+        });
+      var jsonResponse = await response.json();
+
+      var a = document.createElement('a');
+      var blob = new Blob([JSON.stringify(jsonResponse)], { 'type': 'application\/json' });
+      a.href = window.URL.createObjectURL(blob);
+      a.download = 'audit.json';
+      a.click();
+    }
+    // Fine logica Ubiquity API 
+  </script>
+
+</body>
+
+</html>
