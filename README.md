@@ -13,8 +13,12 @@ A set of resources in order to become an Ubiquity X power user!
 
 ## Web APIs
 - [Try them on Swagger](https://ubiquity.asem.it/api/index.html)
+- [An example: login and download the domain audit data](https://github.com/massimovar/LearningUbiquityX/blob/main/WebAPI_examples/POC_UbiquityAPI_download_audit_data.html). Download the .html and try it!
 
-### Mobile apps
+## Mobile apps
 - [Ubiquity AR Android](https://play.google.com/store/apps/details?id=it.asem.ubiquity.ar&hl=en_US)
 - [Ubiquity AR iOS](https://apps.apple.com/it/app/ubiquity-ar/id1500712023)
 - [Ubiquity VPN Android](https://play.google.com/store/apps/details?id=it.asem.ubiquity.vpn&hl=it&gl=US)
+
+## Let's begin!
+- [Create a new domain](https://ubiquity.asem.it/controlcenter/signup) or [login to an existing one](https://ubiquity.asem.it/controlcenter/login)
