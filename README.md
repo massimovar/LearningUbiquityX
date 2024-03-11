@@ -10,7 +10,7 @@ A set of resources in order to become an Ubiquity X power user!
 ## Documentation
 - [Online help](https://ubiquity.asem.it/Help/en/index.html)
 - [Ubiquity X security architecture](https://ubiquity.asem.it/downloads-all/Documents/UbiquitySecurityArchitecture.pdf)
-- [Audit Certificate ASEM](https://ubiquity.asem.it/downloads-all/Documents/AuditCertificateASEM.pdf)
+- [Audit Certificate ASEM](https://ubiquity.asem.it/downloads-all/Documents/AuditCertificateASEM-2024.pdf)
 
 ## Web APIs
 - [Try them on Swagger](https://ubiquity.asem.it/api/index.html)
