@@ -7,6 +7,7 @@ A set of resources in order to become an Ubiquity X power user!
 - [Brochure](https://github.com/massimovar/LearningUbiquityX/blob/main/pdf/UBIQUITY%202022_EN.pdf)
 - [Latest news!](https://ubiquity.asem.it/en/News/Index)
 - Latest releases
+  - [UBIQUITY v14](https://github.com/massimovar/LearningUbiquityX/blob/main/pdf/UBIQUITY%20v14_v1.pdf)   
   - [UBIQUITY v13.6](https://github.com/massimovar/LearningUbiquityX/blob/main/pdf/UBIQUITY%20v13.6.pdf)
 
 ## Documentation
