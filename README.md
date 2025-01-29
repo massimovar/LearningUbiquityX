@@ -1,8 +1,8 @@
 # 📚 Learning Ubiquity X
 A set of resources in order to become an Ubiquity X power user!
+[Official site](https://ubiquity.asem.it/en/Index)
 
 ## Overviews
-- [Official site](https://ubiquity.asem.it/en/Index)
 - [Overview on ASEM site](https://www.asem.it/en/products/14/ubiquity.html)
 - [Presentation](https://github.com/massimovar/LearningUbiquityX/blob/main/pdf/Ubiquity%20Overview%20-%20v22.pdf)
 - [Brochure](https://github.com/massimovar/LearningUbiquityX/blob/main/pdf/UBIQUITY%202022_EN.pdf)
