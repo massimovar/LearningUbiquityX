@@ -27,4 +27,4 @@ A set of resources in order to become an Ubiquity X power user!
 - [Ubiquity VPN Android](https://play.google.com/store/apps/details?id=it.asem.ubiquity.vpn&hl=it&gl=US)
 
 ## Let's begin!
-- [Create a new domain](https://ubiquity.asem.it/controlcenter/signup) or [login to an existing one](https://ubiquity.asem.it/controlcenter/login)
+- [Create a new domain](https://ubiquity.asem.it/Help/ubiquity_help/Create-or-join-a-domain.html) or [login to an existing one](https://ubiquity.asem.it/controlcenter/login)
