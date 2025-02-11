@@ -1,4 +1,6 @@
-# 📚 Learning Ubiquity X
+# 📚 Learning Ubiquity 
+# Remote Access: Secure, Simple, Versatile
+
 A set of resources in order to become an Ubiquity X power user!
 
 [Official site](https://ubiquity.asem.it/en/Index)
