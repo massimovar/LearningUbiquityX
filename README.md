@@ -10,3 +10,7 @@ A set of resources in order to become an Ubiquity X power user!
 - [Documentation](./chapters/documentation.md)
 - [Web APIs](./chapters/web_apis.md)
 - [Mobile Apps](./chapters/mobile_apps.md)
+
+---
+
+#### Are you also looking for information about FTOptix? -> [Link](https://github.com/massimovar/LearningFTOptix)
