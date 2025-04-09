@@ -15,7 +15,6 @@ A set of resources in order to become an Ubiquity power user!
 
 - 📱 Mobile Apps -> [Link](./chapters/mobile_apps.md)
 
-
 ---
 
 #### Are you also looking for information about FTOptix? -> [Link](https://github.com/massimovar/LearningFTOptix)
