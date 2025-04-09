@@ -3,8 +3,6 @@
 
 A set of resources in order to become an Ubiquity power user!
 
-[Official site](https://ubiquity.asem.it/en/Index)
-
 - 🌐 What is Ubiquity? -> [Link](./chapters/overview.md)
 
 - 🚀 Test Ubiquity NOW! -> [Link](./chapters/getting_started.md)
