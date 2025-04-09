@@ -1,7 +1,7 @@
 # 📚 Learning Ubiquity 
-#### Remote Access: Secure, Simple, Versatile
+#### SECURE REMOTE ACCESS FOR INDUSTRIAL AUTOMATION DEVICES
 
-A set of resources in order to become an Ubiquity X power user!
+A set of resources in order to become an Ubiquity power user!
 
 [Official site](https://ubiquity.asem.it/en/Index)
 
