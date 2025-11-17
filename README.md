@@ -9,7 +9,7 @@ A set of resources in order to become an Ubiquity power user!
 
 ## Updates
 
-- ✨ New releases  [Link](./chapters/overview.md)
+- ✨ New releases  [Link](./chapters/releases.md)
 - 📰 Latest news! [Link](https://ubiquity.asem.it/en/News/Index)
 
 ## Docs
