@@ -41,7 +41,7 @@
 
 - **Infrastructure — Relay Servers:** Improvements in relay server reliability and scaling.
 
-- **Platform — iOS App:** New or updated Ubiquity iOS application.
+- **Platform — iOS App:** New or updated Ubiquity iOS application with VPN feature
 
 - **Platform — Localization:** Added Italian, Spanish and German language support.
 
