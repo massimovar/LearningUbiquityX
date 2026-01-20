@@ -4,7 +4,7 @@
 
 A set of resources in order to become an Ubiquity power user!
 
-- 🌐 Ubiquity Overview [Link](https://github.com/massimovar/LearningUbiquityX/blob/main/pdf/Ubiquity%20Overview%20-%20v25.pdf)
+- 🌐 Ubiquity Overview [Link](https://github.com/massimovar/LearningUbiquityX/blob/main/pdf/Ubiquity%20Overview%20-%20v26.pdf)
 - 🚀 Try Ubiquity NOW!  [Link](https://ubiquity.asem.it/Help/ubiquity_help/Create-or-join-a-domain.html)
 
 ## Updates
