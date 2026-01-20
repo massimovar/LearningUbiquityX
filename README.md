@@ -1,10 +1,10 @@
-# 📚 Learning Ubiquity 
+# 📚 Learning Ubiquity
 
 ## THE REMOTE ACCESS: SAFE, INTUITIVE, FLEXIBLE
 
 A set of resources in order to become an Ubiquity power user!
 
-- 🌐 What is Ubiquity?  [Link](./chapters/overview.md)
+- 🌐 Ubiquity Overview [Link](https://github.com/massimovar/LearningUbiquityX/blob/main/pdf/Ubiquity%20Overview%20-%20v25.pdf)
 - 🚀 Try Ubiquity NOW!  [Link](https://ubiquity.asem.it/Help/ubiquity_help/Create-or-join-a-domain.html)
 
 ## Updates
