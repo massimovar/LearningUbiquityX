@@ -1,5 +1,30 @@
 # New releases
 
+# 2024
+
+## [v14.3](./../pdf/UBIQUITY%2014.4%20Release_v2.pdf)
+<details>
+<summary>Key Features & Enhancements (v14.4) — click to expand</summary>
+
+**Local Web-Based Remote Desktop**: Access and mirror HMI screens directly from any browser-enabled device on the local network without installing UBIQUITY Tools.
+
+**Device Statistics Dashboard**: New dashboard provides centralized visibility into device types, versions, and connection status for easier fleet monitoring.
+
+**USB Device Configurator**: Devices can now be provisioned through USB using standardized System Manager JSON configuration files for faster deployment.
+
+**Single Email, Multiple Domains**: Users can authenticate across multiple domains using the same email account, including support for 2FA and external authentication.
+
+**Improved VPN Throughput**: Enhanced virtual Ethernet adapter significantly boosts VPN performance, with throughput improvements of around 150% versus v14.3.
+
+**Hidden Parent Folders**: Subdomain users now only see authorized resources, improving security isolation and reducing interface clutter.
+
+**Improved MAC Address Handling**: Physical MAC addresses are now consistently displayed across views while filtering out virtual and bridge interfaces.
+
+**Infrastructure & Scalability Improvements**: Updated Access/Relay servers and migration to TLS 1.3 improve scalability, resilience, and security.
+
+**Kubernetes-Based Private Server**: UBIQUITY Private Server now supports a Kubernetes container architecture, enabling easier deployment, lower operational costs, and cloud-native scalability.
+
+
 # 2025
 
 ## [v14.3](./../pdf/UBIQUITY%2014.3%20Release_v2.pdf)
